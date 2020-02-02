@@ -1,0 +1,255 @@
+
+
+/*Desctop Large */
+@media screen and (max-width: 4000px) { 
+	
+}
+
+/*Desctop Middle */
+@media screen and (max-width: 1300px) {
+	/* Header Menu */
+	a.menu_list__link {
+		padding-right: 24px;
+	}
+}	
+/* Bigger Screen */
+@media screen and (max-width: 1100px) {
+	/* Header Menu */
+	.menu__logo {
+		width: 100%;
+		padding-left: 0;
+		text-align: center;
+		padding-bottom: 20px;
+	}
+	.menu__list {
+		margin-right: 0;
+		justify-content: center;
+		width: 100%;
+	}
+	/* Under Header */
+	.under_header {
+		margin-top: 110px;
+		width: 86%
+	}
+	h1.under_header__left__h1 {
+		font-size: 40px;
+	}
+	.under_header__right {
+		margin-left: 6%;
+	}
+	/*Main Info List*/
+	li.main__info__list__elem {
+		width: 48%;
+	}
+	/* About Us */
+	.about__inner {
+		justify-content: center;
+	}
+	.about__left {
+		width: 100%;
+	}
+	.about__right {
+		margin-top: 40px;
+		width: 60%;
+	}
+	.about__inner__bgc {
+		padding-bottom: 50px;
+	}
+	/* Examples */
+	li.examples__list__elem {
+		width: 48%;
+	}
+
+}
+
+/* Phones */
+
+@media screen and (max-width: 900px) {
+	/* Header */
+	.header {
+		background-image: url('../img/car/4.jpg');
+	}
+	.menu {
+		padding-top: 30px;
+	}
+	.menu__list {
+		padding-top: 0;
+		display: none;
+		position: absolute;
+    	top: 60px;
+	}
+	.navbar {
+		background-color: #154fb8;
+		display: block !important;
+	}
+	li.menu__list_elem {
+		margin-top: 0;
+
+	}
+	a.menu_list__link {
+		padding: 14px 0;
+		padding-left: 10px;
+		border-top: solid 1px white;
+		background-color: #154fb8;
+		color: white;
+	}
+	a.menu_list__link {
+		padding-right: 0;
+	}
+	/* Under Header */
+	.under_header__right__order {
+		padding: 10px 0;
+		width: 100%;
+		margin-left: 0;
+	}
+	.under_header {
+		width: 80%;
+		flex-direction: column;
+		align-items: flex-start;
+		margin-top: 10px;
+		padding-bottom: 40px;
+	}
+	.under_header__left {
+		width: 90%;
+	}
+	.under_header__right {
+		margin-top: 40px;
+		width: 90%;
+		margin-left: 0;
+	}
+	/* Advantages */
+	.advantages__inner {
+		flex-direction: column;
+		width: 80%;
+		align-items: center;
+		padding-bottom: 0;
+	}
+	li.advantages__elem {
+		width: 100%;
+	}
+	/* FeedBack */
+	.feedback_under__inner {
+		flex-direction: column;
+	}
+	.feedback_under__left {
+		width: 100%;
+		order: 2;
+	}
+	.feedback_under__right {
+		width: 100%;
+		order: 1;
+		padding-bottom: 40px;
+	}
+	input.feedback_under__input {
+		width: 100%;
+		margin-left: 0;
+	}
+	button.feedback_under__input {
+		width: 80%;
+	}
+	/* Question */
+	.qeustion__inner {
+		width: 90%;
+	}
+	/* Footer */
+	.footer {
+		flex-direction: column;
+		width: 100%;
+	}
+	.footer__left {
+		width: 70%;
+	}
+	.footer__right {
+		margin-top: 20px;
+		padding-left: 10%;
+	}
+	ul.footer__right__list {
+		flex-direction: column;
+	}
+	li.footer__right__elem {
+		margin-top: 14px;
+	}
+
+}
+
+@media screen and (max-width: 520px) {
+	/* Header */
+	a.under_header__left__a {
+		width: 70%;
+		font-size: 20px;
+	}
+	.under_header__left {
+		width: 90%;
+		margin: 0 auto;
+	}
+	h1.under_header__left__h1 {
+		font-size: 30px;
+	}
+	/* Under Header */
+	
+	.under_header {
+		width: 100%;
+	}
+	.under_header__left {
+		padding-top: 40px;
+	}
+	.under_header__right {
+		
+	}
+	.header__background {
+		padding-bottom: 80px;
+	}
+	a.under_header__left__link {
+		width: 80%;
+		padding: 8% 10%;
+	}
+	.under_header__right {
+		margin: 30px auto 0;
+	}
+	.under_header__right__calc {
+		width: 80%;
+		padding: 10% 10%;
+	}
+	ul.volume_clean__list {
+		flex-wrap: wrap;
+		margin-bottom: 10px;
+		justify-content: space-between;
+	}
+	li.volume_clean__elem {
+		width: 48%;
+		margin-left: 0;
+		margin-bottom: 10px;
+	}
+	/* About Us */
+	h2.about__left__h2 {
+		padding-top: 20px;
+		padding-bottom: 10px;
+		font-size: 40px;
+	}
+	/* Main Info */
+	li.main__info__list__elem {
+		width: 100%;
+	}
+	/* Examples */
+	li.examples__list__elem {
+		width: 100%;
+	}
+	/* Order */
+	input.feedback_under__input {
+		margin: 20px auto 0;
+		display: block;
+	}
+	button.feedback_under__input {
+		margin: 20px auto 0;
+		display: block;
+	}
+	.about__inner__bgc {
+		padding-top: 30px;
+	}
+	h3.about__left__h3 {
+		font-size: 24px;
+	}
+	h4.about__left__h4 {
+		font-size: 20px;
+	}
+}

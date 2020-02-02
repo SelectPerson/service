@@ -1,0 +1,35 @@
+footer.footer {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	
+}
+
+.footer__left {
+	width: 20%;
+	padding-left: 10%;
+	font-size: 18px;
+}
+
+.footer__right {
+	width: 64%;
+	font-size: 18px;
+}
+
+ul.footer__right__list {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: flex-end;
+
+}
+
+li.footer__right__elem {
+	margin-right: 4%;
+}
